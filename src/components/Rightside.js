@@ -30,15 +30,12 @@ const Rigthside = (props) => {
         </FeedList>
 
         <Recommendation>
-          View all recommendations
+          View all recommendations here
           <img src="/images/right-icon.svg" alt="" />
         </Recommendation>
       </FollowCard>
       <BannerCard>
-        <img
-          src="/images/jobsAd.jpg"
-          alt=""
-        />
+        <img src="/images/jobsAd.jpg" alt="" />
       </BannerCard>
     </Container>
   );
@@ -112,17 +109,17 @@ const Avatar = styled.div`
 `;
 
 const Recommendation = styled.a`
-color: #0a66c2;
-display: flex;
-align-items: center;
-font-size: 14px;
+  color: #0a66c2;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
 `;
 
 const BannerCard = styled(FollowCard)`
-img{
+  img {
     width: 100%;
     height: 100%;
-}
+  }
 `;
 
 export default Rigthside;

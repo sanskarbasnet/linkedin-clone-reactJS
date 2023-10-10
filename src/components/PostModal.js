@@ -18,7 +18,7 @@ const PostModal = (props) => {
     const image = e.target.files[0];
 
     if (image === "" || image === undefined) {
-      alert(`not an image, the file is a ${typeof image}`);
+      alert(`it is not an image, the file is a ${typeof image}`);
       return;
     }
     setShareImage(image);
